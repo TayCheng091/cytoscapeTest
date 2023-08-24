@@ -1,0 +1,24 @@
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+    background: orange;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: #dddddd;
+    border: solid 2px #bbbbbb ;
+    border-radius: 3px ;
+    cursor: pointer ;
+    padding:4px 8px;
+    &:hover{
+     background: black ;
+     color: white ;
+    }
+  }
+  
+  .container {
+    border:solid 1px black ;
+  /*   width: 600px; */
+    height: 600px;
+  }
